@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+<HEAD>
+
+<TITLE>TechProEd</TITLE>
+
+<STYLE>
+	.h1_class{
+		color:red;
+		background-color: yellow;
+		font-size: 60px;
+		text-align: center;
+	}
+	.p_class {
+		font-size: 25px;
+		font-family: arial;
+
+	}
+		#Company_name{
+			color: lime;
+			background-color: grey;
+			font-size: 100px;
+			font-family: helvetica;
+			text-align: center;
+		}
+		table, th, td {
+			border: 3px solid red;
+		}
+		 th {
+			border: 1px solid black;
+		}
+
+
+</STYLE>
+
+</HEAD>
+
+<Body>
+		<H1 id="Company_name">TechProEd</H1>
+
+	<H1 class="h1_class">HTML 2. Ders </H1>
+	<p class="p_class">
+		Bu gun css i head kisminda kullanacagiz <BR>
+		id ve class attributes lari ogrenecegiz <BR>
+		Table, list, iframe ve formlari ogrenecegiz <BR>
+	</p>
+
+	<h1 class="h1_class">Java bilene HTML kolay!</h1>
+
+	<p class="p_class">
+		Tum program lama dilleri birnirine benzer <BR>
+		Brini bilen digerini kolay ogrenir <BR>
+		Ilkinin ogrenmek zordur <BR>
+	</p>
+
+	<H1 class="h1_class">Ordered List</H1>
+	<OL class="p_class" type="a" >
+		
+		<LI>Elma</LI>
+		<LI>Armut</LI>
+		<LI>Uzum</LI>
+		<LI>KArpuz</LI>
+
+	</OL>
+<OL class="p_class" >
+		
+		<LI>Elma</LI>
+		<LI>Armut</LI>
+		<LI>Uzum</LI>
+		<LI>KArpuz</LI>
+
+	</OL>
+<OL class="p_class" type="A" >
+		
+		<LI>Elma</LI>
+		<LI>Armut</LI>
+		<LI>Uzum</LI>
+		<LI>KArpuz</LI>
+
+	</OL>
+
+	<OL class="p_class" type="I" >
+		
+		<LI>Elma</LI>
+		<LI>Armut</LI>
+		<LI>Uzum</LI>
+		<LI>KArpuz</LI>
+
+	</OL>
+
+
+	<H1 class="h1_class">Unordered list (Sirasiz)</H1>
+
+	<UL class="p_class">
+		
+		<LI>Kedi</LI>
+		<LI>Kopek</LI>
+		<LI>Koyun</LI>
+		<LI>kurt</LI>
+
+	</UL>
+
+<UL class="p_class" type="circle">
+		
+		<LI>Kedi</LI>
+		<LI>Kopek</LI>
+		<LI>Koyun</LI>
+		<LI>kurt</LI>
+
+	</UL>
+
+<UL class="p_class" type="square">
+		
+		<LI>Kedi</LI>
+		<LI>Kopek</LI>
+		<LI>Koyun</LI>
+		<LI>kurt</LI>
+
+	</UL>
+
+<UL class="p_class" type="disc">
+		
+		<LI>Kedi</LI>
+		<LI>Kopek</LI>
+		<LI>Koyun</LI>
+		<LI>kurt</LI>
+
+	</UL>
+
+
+	<H1>Table (Tablo) Creation</H1>
+	<TABLE>
+		
+		<tr> <!--//TR ==> table row -->
+			
+			<th>ISIM</th><th>SEHIR</th><th>HAYVAN</th> <!-- TH ==> Table hading -->
+
+		</tr>
+
+		<TR>
+			
+			<TD>ALI</TD><TD>bolu</TD><TD>kedi</TD> <!--TD ==> Table data -->
+		</TR>
+
+		<TR>
+			<TD>Can</TD><TD>Nigde</TD><TD>kus</TD>
+		</TR>
+		<TR>
+			<TD>Selman</TD><TD>Bayburt</TD><TD>hindi</TD>
+
+		</TR>
+
+
+
+
+	</TABLE>
+
+	<H1 class="h1_class">  TextBox element</H1>
+	<FORM >
+		
+		<LABEL>Isim</LABEL>
+
+		<INPUT type="TextBox">
+		<INPUT type="submit"
+
+
+
+	</FORM>
+
+	<H1 class="h1_class">  TextArea element</H1>
+	<label style="font-size: 30px; color: red;">BU ALANA DUSUNCELERINIZI YAZIN</label><Br>
+	<Br>
+
+	<TEXTAREA rows="10 cols="50">BU ALANA DUSUNCELERINIZI YAZIN</TEXTAREA>
+
+	<H1 class="h1_class">checkbox Button</H1>
+
+	<form>
+		<label>Ne Yemek Istersiniz?</label> <BR>
+		<LABEL>BALIK</LABEL>
+		<input type="checkbox" id="menu1" name="menu1" value="Balik">
+		<LABEL>VEGAN</LABEL>
+		<input type="checkbox" id="menu2" name="menu2" value="Vegan">
+		<LABEL>NORMAL</LABEL>
+		<input type="checkbox" id="menu3" name="menu3" value="normal">
+		<input type="submit">
+	</form>
+	<H1 class="h1_class">Radio Button</H1> <!-- Radio buttonlarda sadece bir secenek vardir -->
+
+	<form>
+		<LABEL>Cinsiyetiniz nedir?</LABEL><BR>
+		<LABEL>Erkek</LABEL>
+		<input type="Radio" id="Erkek" name="Cinsiyet" value="erkek">
+		<LABEL>Kadin</LABEL>
+		<input type="Radio" id="Kadin"   name="Cinsiyet" value="KAdin">
+		<LABEL>Diger</LABEL>
+		<input type="Radio" id="other"  name="Cinsiyet" value="Other"> 
+		<input type="submit" >
+
+	</form>
+
+
+</BODY>
+
+</HTML>
